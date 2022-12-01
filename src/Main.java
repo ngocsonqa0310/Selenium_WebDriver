@@ -13,7 +13,7 @@ public class Main {
         System.setProperty("webdriver.opera.driver", projectPath + "/web_drivers/operadriver.exe");
 
         // khoi tao 1 doi tuong edge driver
-        WebDriver driver = new OperaDriver();
+        WebDriver driver = new ChromeDriver();
 
         // dieu huong den trang google.com
         driver.get("https://google.com");
